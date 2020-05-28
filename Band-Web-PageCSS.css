@@ -1,18 +1,22 @@
 .side-bar {
+  float: left;
+  height: 100%; 
+  width: auto; 
   margin: 15 px;
-  border: 5 px;
-  padding: 5 px;
-  background-color: grey;
-  color: #a9a9a9
+  border: 15 px;
+  padding: 15 px;
+  background-color: black;
+  color: #a9a9a9;
+  
 }
-/*
+
 img {
   float: center;
-  height: 300px;
+  height: 100%;
   width: auto;
   padding: 20px;
 }
-*/
+
 .hero-image {
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
   height: 50%;
@@ -21,3 +25,9 @@ img {
   background-size: cover;
   position: relative;
 }
+  .band {
+    font-size: 15px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
